@@ -1,0 +1,201 @@
+/* Root styles */
+.root {
+    -fx-font-family: "System";
+    -fx-background-color: #f4f4f4;
+}
+
+/* Top AnchorPane */
+.top-pane {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #ddd;
+    -fx-border-width: 0 0 1 0;
+}
+
+/* Left AnchorPane */
+.left-pane {
+    -fx-background-color: #4169E1;
+    -fx-background-radius: 0 50 0 0;
+}
+
+/* Buttons */
+Button {
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+}
+
+.action-button {
+    -fx-background-color: #4169E1;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8 16;
+}
+
+.action-button:hover {
+    -fx-background-color: #3558b2;
+}
+
+.danger-button {
+    -fx-background-color: #dc3545;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8 16;
+}
+
+.danger-button:hover {
+    -fx-background-color: #c82333;
+}
+
+.nav-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-alignment: TOP-LEFT;
+}
+
+.nav-button:hover {
+    -fx-background-color: #b3367a;
+}
+
+.nav-button:disabled {
+    -fx-opacity: 0.4;
+    -fx-text-fill: #ffff;
+    -fx-cursor: default;
+}
+
+.logout-button {
+    -fx-background-color: #DB4495;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 6 12;
+}
+
+.logout-button:hover {
+    -fx-background-color: #b3367a;
+}
+
+/* Labels */
+Label {
+    -fx-font-size: 14px;
+}
+
+.date-label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+.status-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #555;
+}
+
+.version-label {
+    -fx-font-size: 12px;
+    -fx-text-fill: #333;
+    -fx-background-color: #e0e0e0;
+    -fx-padding: 4;
+    -fx-background-radius: 4;
+}
+
+/* ListView */
+.project-list {
+    -fx-background-color: white;
+    -fx-border-color: #ddd;
+    -fx-border-width: 1;
+    -fx-selection-mode: SINGLE;
+}
+
+.project-list .list-cell {
+    -fx-background-color: white;
+    -fx-padding: 10;
+    -fx-border-color: #eee;
+    -fx-border-width: 0 0 1 0;
+}
+
+.project-list .list-cell:hover {
+    -fx-background-color: #f5f5f5;
+}
+
+.project-list .list-cell:selected {
+    -fx-background-color: #e6f0ff;
+}
+
+/* Custom project cell layout */
+.project-cell {
+    -fx-background-color: white;
+    -fx-padding: 10;
+    -fx-spacing: 5;
+}
+
+.project-cell Label {
+    -fx-font-size: 13px;
+    -fx-text-fill: #333;
+}
+
+.project-cell .project-id {
+    -fx-font-weight: bold;
+}
+
+.project-cell .project-name {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.project-cell .project-vet {
+    -fx-text-fill: #555;
+}
+
+.project-cell .project-status {
+    -fx-text-fill: #555;
+}
+
+.project-cell .project-dates {
+    -fx-text-fill: #777;
+}
+
+/* TextField */
+.search-field {
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 6;
+    -fx-padding: 6;
+    -fx-font-size: 14px;
+}
+
+.search-field:hover {
+    -fx-border-color: #4169E1;
+}
+
+/* ChoiceBox */
+ChoiceBox {
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 6;
+    -fx-font-size: 14px;
+}
+
+ChoiceBox:hover {
+    -fx-border-color: #4169E1;
+}
+
+/* PieChart */
+.chart {
+    -fx-background-color: white;
+    -fx-border-color: #ddd;
+    -fx-border-width: 1;
+}
+
+.chart-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.chart-pie-label {
+    -fx-font-size: 12px;
+}
+
+/* ImageView */
+ImageView {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 5, 0, 1, 1);
+}

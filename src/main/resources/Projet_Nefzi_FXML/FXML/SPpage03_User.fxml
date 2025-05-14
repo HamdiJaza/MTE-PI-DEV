@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="678.0" prefWidth="931.0" stylesheets="@../Styles/StyleSPpage03User.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tn.esprit.Controllers.SPpage03UserController">
+   <top>
+      <AnchorPane prefHeight="71.0" prefWidth="931.0" styleClass="top-pane" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="searchField" layoutX="248.0" layoutY="18.0" prefHeight="36.0" prefWidth="246.0" promptText="Chercher un projet..." styleClass="search-field" />
+            <Label alignment="CENTER" layoutX="69.0" layoutY="16.0" prefHeight="46.0" prefWidth="82.0" text="MTE" textFill="#db4495">
+               <font>
+                  <Font name="Abril Fatface" size="27.0" />
+               </font>
+            </Label>
+            <Label fx:id="userNameLabel" layoutX="745.0" layoutY="22.0" prefHeight="27.0" prefWidth="123.0" text="Utilisateur" textFill="#817e7e">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="32.0" fitWidth="24.0" layoutX="868.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/output-onlinepngtools (4).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="32.0" fitWidth="24.0" layoutX="508.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/output-onlinepngtools (3).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="27.0" fitWidth="26.0" layoutX="50.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/drapeau-du-gouvernement (2).png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </top>
+   <left>
+      <AnchorPane prefHeight="563.0" prefWidth="171.0" styleClass="left-pane" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="btnDemandes" alignment="TOP_LEFT" disable="true" layoutX="56.0" layoutY="96.0" mnemonicParsing="false" onAction="#handleDemandes" prefHeight="40.0" prefWidth="150.0" styleClass="nav-button" text="Demandes">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <ImageView fx:id="imgDemandes" fitHeight="28.0" fitWidth="30.0" layoutX="28.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/output-onlinepngtools (5).png" />
+               </image>
+            </ImageView>
+            <Button fx:id="btnReservations" alignment="TOP_LEFT" disable="true" layoutX="57.0" layoutY="144.0" mnemonicParsing="false" onAction="#handleReservations" prefHeight="40.0" prefWidth="150.0" styleClass="nav-button" text="Réservations">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <ImageView fx:id="imgReservations" fitHeight="28.0" fitWidth="30.0" layoutX="28.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/tableau-de-reservation (3).png" />
+               </image>
+            </ImageView>
+            <Button fx:id="btnEvenements" alignment="TOP_LEFT" disable="true" layoutX="56.0" layoutY="193.0" mnemonicParsing="false" onAction="#handleEvenements" prefHeight="40.0" prefWidth="151.0" styleClass="nav-button" text="Evènements">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <ImageView fx:id="imgEvenements" fitHeight="28.0" fitWidth="30.0" layoutX="28.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/etoile-du-calendrier.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="btnProjets" alignment="TOP_LEFT" disable="true" layoutX="55.0" layoutY="241.0" mnemonicParsing="false" onAction="#handleProjets" prefHeight="40.0" prefWidth="152.0" styleClass="nav-button" text="Projets">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <ImageView fx:id="imgProjets" fitHeight="28.0" fitWidth="30.0" layoutX="28.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/plan.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="btnParametres" alignment="TOP_LEFT" disable="true" layoutX="55.0" layoutY="284.0" mnemonicParsing="false" onAction="#handleParametres" prefHeight="40.0" prefWidth="152.0" styleClass="nav-button" text="Paramètres">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <ImageView fx:id="imgParametres" fitHeight="28.0" fitWidth="30.0" layoutX="28.0" layoutY="290.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/parametres.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="profileButton" alignment="TOP_LEFT" disable="true" layoutX="55.0" layoutY="330.0" mnemonicParsing="false" onAction="#showProfile" prefHeight="40.0" prefWidth="152.0" styleClass="nav-button" text="Mon Profil">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <ImageView fx:id="imgProfile" fitHeight="28.0" fitWidth="30.0" layoutX="28.0" layoutY="336.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/utilisateur-du-cercle.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="logoutButton" layoutX="55.0" layoutY="530.0" mnemonicParsing="false" onAction="#logout" prefHeight="30.0" prefWidth="100.0" styleClass="logout-button" text="Déconnexion" />
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <VBox spacing="20.0" VBox.vgrow="ALWAYS">
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+         <HBox alignment="CENTER_LEFT" spacing="20.0">
+            <ChoiceBox fx:id="projectChoiceBox" prefWidth="200.0" />
+         </HBox>
+         <ListView fx:id="listProjets" editable="false" prefHeight="454.0" prefWidth="506.0" VBox.vgrow="ALWAYS" styleClass="project-list" />
+      </VBox>
+   </center>
+   <right>
+      <VBox alignment="TOP_CENTER" prefHeight="511.0" prefWidth="240.0" spacing="25.0">
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+         <Label fx:id="currentDateLabel" prefHeight="40.0" prefWidth="200.0" styleClass="date-label" text="Date: ..." />
+         <Label fx:id="tasksDoneLabel" styleClass="status-label" text="Tâches Terminées: 0" />
+         <Label fx:id="tasksNotDoneLabel" styleClass="status-label" text="Tâches Non Terminées: 0" />
+         <Label fx:id="progressLabel" styleClass="status-label" text="Avancement: 0%" />
+         <PieChart fx:id="chartStats" prefHeight="300.0" prefWidth="200.0" title="Progrès du Projet" />
+      </VBox>
+   </right>
+   <bottom>
+      <HBox alignment="CENTER" spacing="20.0">
+         <padding>
+            <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+         </padding>
+         <Label fx:id="statusLabel" prefWidth="800.0" styleClass="status-label" text="Statut: Initialisé" />
+         <Label prefHeight="31.0" prefWidth="106.0" styleClass="version-label" text="Version 1.0.1" textAlignment="CENTER" />
+      </HBox>
+   </bottom>
+</BorderPane>

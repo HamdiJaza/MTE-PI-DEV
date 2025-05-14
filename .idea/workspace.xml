@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5450ce37-4a96-421f-88f9-41265728d216" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Projet_Nefzi_FXML/FXML/SPpage03_User.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Projet_Nefzi_FXML/Styles/StyleSPpage03User.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cssdialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MTN-Pi-Dev" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suivie_Projet/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suivie_Projet/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suivie_Projet/.idea/cssdialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suivie_Projet/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suivie_Projet/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suivie_Projet/MTN-Pi-Dev" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suivie_Projet/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suivie_Projet/projets.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suivie_Projet/src/main/java/tn/esprit/Controllers/AdmineEventControllers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suivie_Projet/src/main/java/tn/esprit/Controllers/SPpage01ProjetControllers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suivie_Projet/src/main/java/tn/esprit/Controllers/SPpage02KanbanController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suivie_Projet/src/main/java/tn/esprit/Controllers/SPpopupAjouterProjet_controllers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suivie_Projet/src/main/java/tn/esprit/Controllers/SPpopupAjouterTaches.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suivie_Projet/src/main/java/tn/esprit/Main/MainApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suivie_Projet/src/main/java/tn/esprit/interfaces/ISuivieSP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suivie_Projet/src/main/java/tn/esprit/models/SPprojets.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suivie_Projet/src/main/java/tn/esprit/models/SPtaches.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suivie_Projet/src/main/java/tn/esprit/services/ServiceSPprojet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suivie_Projet/src/main/java/tn/esprit/services/ServiceSPtaches.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suivie_Projet/src/main/java/tn/esprit/utils/MyDataBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suivie_Projet/src/main/resources/Event_Admine_Fxml/MenuPrincipale.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suivie_Projet/src/main/resources/Event_Admine_Fxml/SPpage01_projet.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suivie_Projet/src/main/resources/Event_Admine_Fxml/SPpage02_Kanban.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suivie_Projet/src/main/resources/Event_Admine_Fxml/SPpopup_ajouter_projet.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suivie_Projet/src/main/resources/Event_Admine_Fxml/SPpopup_ajouter_taches.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suivie_Projet/src/main/resources/Event_Admine_Fxml/StyleKanban.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suivie_Projet/src/main/resources/Event_Admine_Fxml/StyleSP_P_ajouter_Projet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suivie_Projet/src/main/resources/Event_Admine_Fxml/StyleSP_T_ajouter_Taches.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suivie_Projet/src/main/resources/Event_Admine_Fxml/StyleSPpage01.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suivie_Projet/src/main/resources/Event_Admine_Fxml/Suivie_projet.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suivie_Projet/src/main/resources/Event_Admine_Fxml/images/494573575_1072540188025365_7406972064254503044_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suivie_Projet/src/main/resources/Event_Admine_Fxml/images/Image_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suivie_Projet/src/main/resources/Event_Admine_Fxml/images/User.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suivie_Projet/src/main/resources/Event_Admine_Fxml/styleMenuPrincipal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suivie_Projet/taches_projet_11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suivie_Projet/taches_projet_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suivie_Projet/taches_projet_8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suivie_Projet/taches_projet_9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projets.csv" beforeDir="false" afterPath="$PROJECT_DIR$/projets.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/Main/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/Main/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/AdmineEventControllers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/Interface1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/LoginView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/SPpage01ProjetControllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/Controllers/SPpage01ProjetControllers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/SPpage02KanbanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/Controllers/SPpage02KanbanController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/SPpopupAjouterProjet_controllers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/SPpopupAjouterTaches.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/SignupView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/interfaces/IService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/interfaces/ISuivieSP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/interfaces/ISuivieSP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/models/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/models/SPprojets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/models/SPprojets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/models/SPtaches.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/models/SPtaches.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/models/Utilisateur.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/services/ServiceSPprojet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/services/ServiceSPprojet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/services/ServiceSPtaches.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/services/ServiceSPtaches.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/services/ServiceUtilisateur.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/test/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/test/MainFX.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/test/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/utils/MyDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/utils/MyDataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Event_Admine_Fxml/MenuPrincipale.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Event_Admine_Fxml/SPpage01_projet.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Projet_Nefzi_FXML/FXML/SPpage01_projet.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Event_Admine_Fxml/SPpage02_Kanban.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Projet_Nefzi_FXML/FXML/SPpage02_Kanban.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Event_Admine_Fxml/SPpopup_ajouter_projet.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Event_Admine_Fxml/SPpopup_ajouter_taches.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Event_Admine_Fxml/StyleKanban.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Projet_Nefzi_FXML/Styles/StyleSPpage02Kanban.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Event_Admine_Fxml/StyleSP_P_ajouter_Projet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Event_Admine_Fxml/StyleSP_T_ajouter_Taches.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Event_Admine_Fxml/StyleSPpage01.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Projet_Nefzi_FXML/Styles/StyleSPpage01projet_Admine.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Event_Admine_Fxml/Suivie_projet.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Event_Admine_Fxml/images/494573575_1072540188025365_7406972064254503044_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Event_Admine_Fxml/images/Image_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Event_Admine_Fxml/images/User.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Projet_Nefzi_FXML/images/User.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Event_Admine_Fxml/styleMenuPrincipal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/tn.esprit/Interface1.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/tn.esprit/LoginView.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/tn.esprit/SignupView.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taches_projet_11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taches_projet_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taches_projet_8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taches_projet_9.csv" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="JavaFXApplication" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2wZxygtq5z0Ce4Gqqdnq318rV4O" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "Application.MainApp.executor": "Run",
+    "Maven.Admine_Event_local [clean].executor": "Run",
+    "Maven.Admine_Event_local [compile].executor": "Run",
+    "Maven.Admine_Event_local [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
+    "Maven.Admine_Event_local [org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile].executor": "Run",
+    "Maven.Admine_Event_local [org.apache.maven.plugins:maven-compiler-plugin:3.13.0:testCompile].executor": "Run",
+    "Maven.Admine_Event_local [org.openjfx:javafx-maven-plugin:0.0.8:run].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/MSI/Desktop/Suivie_Projet",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MSI\Desktop\Projet-JFX-Nefzi\src\main\resources\Projet_Nefzi_FXML\FXML" />
+      <recent name="C:\Users\MSI\Desktop\Projet-JFX-Nefzi\src\main\resources\Projet_Nefzi_FXML\Styles" />
+      <recent name="C:\Users\MSI\Desktop\Projet-JFX-Nefzi\src\main\resources\Projet_Nefzi_FXML\images" />
+      <recent name="C:\Users\MSI\Desktop\03-Esprit\19-Projet_JAVA\Admine_event\Admine_Event_local\src\main\resources\Event_Admine_Fxml" />
+      <recent name="C:\Users\MSI\Desktop\03-Esprit\19-Projet_JAVA\Admine_event\Admine_Event_local\src\main\resources\Event_Admine_Fxml\images" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Suivie_Projet" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Suivie_Projet" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Suivie_Projet" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="Suivie_Projet" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.117" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.117" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5450ce37-4a96-421f-88f9-41265728d216" name="Changes" comment="" />
+      <created>1746263155683</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746263155683</updated>
+      <workItem from="1746263156928" duration="5384000" />
+      <workItem from="1746285319603" duration="1589000" />
+      <workItem from="1746315404264" duration="17676000" />
+      <workItem from="1746373240088" duration="2065000" />
+      <workItem from="1746375422236" duration="4265000" />
+      <workItem from="1746387268510" duration="3093000" />
+      <workItem from="1746391404578" duration="7369000" />
+      <workItem from="1746403552634" duration="456000" />
+      <workItem from="1746442156566" duration="196000" />
+      <workItem from="1746446524075" duration="431000" />
+      <workItem from="1746447496253" duration="224000" />
+      <workItem from="1746448076516" duration="2419000" />
+      <workItem from="1746453752590" duration="112000" />
+      <workItem from="1746711228286" duration="4187000" />
+      <workItem from="1746872570163" duration="1872000" />
+      <workItem from="1746874518936" duration="7530000" />
+      <workItem from="1746903222722" duration="6876000" />
+      <workItem from="1747129239999" duration="5322000" />
+      <workItem from="1747165633704" duration="8494000" />
+      <workItem from="1747177105772" duration="1263000" />
+      <workItem from="1747178395514" duration="163000" />
+      <workItem from="1747179925219" duration="2815000" />
+      <workItem from="1747215639175" duration="2243000" />
+      <workItem from="1747222467438" duration="1155000" />
+      <workItem from="1747225755008" duration="673000" />
+      <workItem from="1747227910116" duration="18000" />
+      <workItem from="1747228084806" duration="1877000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

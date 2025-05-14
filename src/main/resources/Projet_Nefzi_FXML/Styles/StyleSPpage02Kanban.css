@@ -1,0 +1,118 @@
+.root {
+    -fx-font-family: "System";
+    -fx-background-color: #f4f4f4;
+}
+
+/* Header */
+.header-box {
+    -fx-background-color: #4169e1;
+    -fx-background-radius: 8px;
+}
+
+.header-title {
+    -fx-font-size: 28px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+/* Buttons */
+.action-button {
+    -fx-background-color: #4169e1;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+}
+
+.action-button:hover {
+    -fx-background-color: #3558b2;
+}
+
+.danger-button {
+    -fx-background-color: #dc3545;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+}
+
+.danger-button:hover {
+    -fx-background-color: #c82333;
+}
+
+/* Kanban Columns */
+.kanban-column {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 10px;
+}
+
+.column-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+/* Status Label */
+.status-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+}
+
+/* ListView and Cells */
+.list-view {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.list-cell {
+    -fx-padding: 5px;
+    -fx-background-color: transparent;
+}
+
+.list-cell:hover {
+    -fx-background-color: #e8f4f8;
+}
+
+.list-cell:selected {
+    -fx-background-color: #d0e6f5;
+}
+
+/* Task Card */
+.task-card {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 10px;
+}
+
+.task-card:hover {
+    -fx-background-color: #f0f0f0;
+}
+
+/* ChoiceBox and TextField */
+.choice-box, .text-field {
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 6;
+    -fx-padding: 6;
+    -fx-font-size: 14px;
+}
+
+.choice-box:focused, .text-field:focused {
+    -fx-border-color: #4169e1;
+    -fx-border-width: 2;
+}
+
+/* Tooltip */
+.tooltip {
+    -fx-font-size: 12px;
+    -fx-background-color: #333;
+    -fx-text-fill: white;
+    -fx-background-radius: 4;
+}

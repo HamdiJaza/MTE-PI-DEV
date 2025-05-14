@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="600.0" prefWidth="1000.0" stylesheets="@../Styles/StyleSPpage01projet_Admine.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tn.esprit.Controllers.SPpage01ProjetControllers">
+    <top>
+        <AnchorPane prefHeight="71.0" prefWidth="1000.0" styleClass="top-pane" BorderPane.alignment="CENTER">
+            <children>
+                <TextField fx:id="searchField" layoutX="248.0" layoutY="18.0" onKeyReleased="#handleSearch" prefHeight="36.0" prefWidth="246.0" promptText="Rechercher un projet..." styleClass="search-field" />
+                <Label alignment="CENTER" layoutX="58.0" layoutY="13.0" prefHeight="46.0" prefWidth="82.0" text="MTE" textFill="#db4495">
+                    <font>
+                        <Font name="Abril Fatface" size="27.0" />
+                    </font>
+                </Label>
+                <Label fx:id="userNameLabel" layoutX="798.0" layoutY="21.0" prefHeight="27.0" prefWidth="123.0" text="Oussema Neffati" textFill="#817e7e">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+                <ImageView fitHeight="32.0" fitWidth="24.0" layoutX="940.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../images/output-onlinepngtools (4).png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="32.0" fitWidth="24.0" layoutX="508.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../images/output-onlinepngtools (3).png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="29.0" fitWidth="26.0" layoutX="24.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../images/drapeau-du-gouvernement (2).png" />
+                    </image>
+                </ImageView>
+            </children>
+        </AnchorPane>
+    </top>
+    <left>
+        <AnchorPane prefHeight="529.0" prefWidth="228.0" styleClass="left-pane" BorderPane.alignment="CENTER">
+            <children>
+                <Button fx:id="btnDemandes" alignment="TOP_LEFT" layoutX="56.0" layoutY="96.0" mnemonicParsing="false" onAction="#handleDemandes" prefHeight="40.0" prefWidth="150.0" styleClass="nav-button" text="Demandes">
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                    <tooltip>
+                        <Tooltip text="Gérer les demandes" />
+                    </tooltip>
+                </Button>
+                <ImageView fx:id="imgDemandes" fitHeight="28.0" fitWidth="30.0" layoutX="28.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../images/output-onlinepngtools (5).png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="btnReservations" alignment="TOP_LEFT" layoutX="57.0" layoutY="144.0" mnemonicParsing="false" onAction="#handleReservations" prefHeight="40.0" prefWidth="150.0" styleClass="nav-button" text="Réservations">
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                    <tooltip>
+                        <Tooltip text="Gérer les réservations" />
+                    </tooltip>
+                </Button>
+                <ImageView fx:id="imgReservations" fitHeight="28.0" fitWidth="30.0" layoutX="28.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../images/tableau-de-reservation (3).png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="btnEvenements" alignment="TOP_LEFT" layoutX="56.0" layoutY="193.0" mnemonicParsing="false" onAction="#handleEvenements" prefHeight="40.0" prefWidth="151.0" styleClass="nav-button" text="Evènements">
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                    <tooltip>
+                        <Tooltip text="Gérer les évènements" />
+                    </tooltip>
+                </Button>
+                <ImageView fx:id="imgEvenements" fitHeight="28.0" fitWidth="30.0" layoutX="28.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../images/etoile-du-calendrier.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="btnProjets" alignment="TOP_LEFT" layoutX="55.0" layoutY="241.0" mnemonicParsing="false" onAction="#handleProjets" prefHeight="40.0" prefWidth="152.0" styleClass="nav-button" text="Projets">
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                    <tooltip>
+                        <Tooltip text="Gérer les projets" />
+                    </tooltip>
+                </Button>
+                <ImageView fx:id="imgProjets" fitHeight="28.0" fitWidth="30.0" layoutX="28.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../images/plan.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="btnParametres" alignment="TOP_LEFT" layoutX="55.0" layoutY="284.0" mnemonicParsing="false" onAction="#handleParametres" prefHeight="40.0" prefWidth="152.0" styleClass="nav-button" text="Paramètres">
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                    <tooltip>
+                        <Tooltip text="Configurer les paramètres" />
+                    </tooltip>
+                </Button>
+                <ImageView fx:id="imgParametres" fitHeight="28.0" fitWidth="30.0" layoutX="28.0" layoutY="290.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../images/parametres.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="profileButton" alignment="TOP_LEFT" layoutX="55.0" layoutY="330.0" mnemonicParsing="false" onAction="#showProfile" prefHeight="40.0" prefWidth="152.0" styleClass="nav-button" text="Mon Profil">
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                    <tooltip>
+                        <Tooltip text="Voir mon profil" />
+                    </tooltip>
+                </Button>
+                <ImageView fx:id="imgProfile" fitHeight="28.0" fitWidth="30.0" layoutX="28.0" layoutY="336.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../images/utilisateur-du-cercle.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="logoutButton" layoutX="55.0" layoutY="490.0" mnemonicParsing="false" onAction="#logout" prefHeight="30.0" prefWidth="100.0" styleClass="logout-button" text="Déconnexion">
+                    <tooltip>
+                        <Tooltip text="Se déconnecter" />
+                    </tooltip>
+                </Button>
+            </children>
+        </AnchorPane>
+    </left>
+    <center>
+        <VBox alignment="TOP_CENTER" spacing="15.0">
+            <padding>
+                <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+            </padding>
+            <HBox alignment="CENTER_LEFT" prefHeight="45.0" prefWidth="600.0" spacing="10.0">
+                <children>
+                    <Button fx:id="btnNouveau" styleClass="action-button" text="Nouveau Projet">
+                        <tooltip>
+                            <Tooltip text="Créer un nouveau projet" />
+                        </tooltip>
+                    </Button>
+                    <Button fx:id="btnExporter" styleClass="action-button" text="Exporter">
+                        <tooltip>
+                            <Tooltip text="Exporter les projets en CSV" />
+                        </tooltip>
+                    </Button>
+                </children>
+            </HBox>
+            <ListView fx:id="listProjets" prefHeight="400.0" prefWidth="600.0" styleClass="project-list" />
+            <HBox alignment="CENTER" spacing="15.0">
+                <Button fx:id="btnModifier" styleClass="action-button" text="Modifier Projet">
+                    <tooltip>
+                        <Tooltip text="Modifier le projet sélectionné" />
+                    </tooltip>
+                </Button>
+                <Button fx:id="btnSupprimer" styleClass="danger-button" text="Supprimer Projet">
+                    <tooltip>
+                        <Tooltip text="Supprimer le projet sélectionné" />
+                    </tooltip>
+                </Button>
+            </HBox>
+        </VBox>
+    </center>
+    <right>
+        <VBox alignment="TOP_CENTER" spacing="20.0">
+            <padding>
+                <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+            </padding>
+            <Label fx:id="currentDateLabel" prefHeight="40.0" prefWidth="200.0" styleClass="date-label" text="Date: ..." />
+            <PieChart fx:id="chartStats" prefHeight="300.0" prefWidth="200.0" title="Répartition des Projets" />
+        </VBox>
+    </right>
+</BorderPane>
